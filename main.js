@@ -5,8 +5,7 @@ import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.c
 import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-storage.js"; 
  
 // Firebase config 
-<script type="module">
-  const firebaseConfig = {
+const firebaseConfig = {
     apiKey: "AIzaSyBR5OQQt63faW_MeHquseA_6ADe-VHnvtA",
     authDomain: "class1-7f81c.firebaseapp.com",
     projectId: "class1-7f81c",
@@ -16,10 +15,6 @@ import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "https://w
     measurementId: "G-ZYPE4RSRQB"
   };
 
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
  
 // Initialize Firebase 
 const app = initializeApp(firebaseConfig); 
